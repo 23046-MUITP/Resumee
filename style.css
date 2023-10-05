@@ -1,0 +1,115 @@
+/* Reset some default margin and padding for the whole page */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Center the content of the header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the name */
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the contact information */
+.contact {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style section titles */
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style section content */
+.section-content {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style the education section */
+.section:nth-child(2) {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the skills section */
+.section:nth-child(3) {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the experience section */
+.section:nth-child(4) {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the awards section */
+.section:nth-child(5) {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the references section */
+.section:nth-child(6) {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style list items */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Add a hover effect to list items */
+li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Add some spacing between sections */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Center the resume content on larger screens */
+@media (min-width: 768px) {
+    .header,
+    .section {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 800px;
+    }
+}
